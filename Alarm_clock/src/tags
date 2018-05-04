@@ -1,0 +1,69 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AHBPrescTable	system_stm32f0xx.c	/^const uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};$/;"	v
+APBPrescTable	system_stm32f0xx.c	/^const uint8_t APBPrescTable[8]  = {0, 0, 0, 0, 1, 2, 3, 4};$/;"	v
+BUTTON_MODE	my_header.h	/^    BUTTON_MODE$/;"	e	enum:INC_TIME_MODES
+CopyDataInit	startup_stm32f051x8.s	/^CopyDataInit:$/;"	l
+DELAY_STOP	my_header.h	/^enum { DELAY_STOP = 1000 };$/;"	e	enum:__anon2
+DIG0	my_header.h	/^    DIG0 = SEG0 | SEG1 | SEG2 | SEG3 | SEG4 | SEG5,$/;"	e	enum:DIGITS
+DIG1	my_header.h	/^    DIG1 = SEG1 | SEG2,$/;"	e	enum:DIGITS
+DIG2	my_header.h	/^    DIG2 = SEG0 | SEG1 | SEG6 | SEG4 | SEG3,$/;"	e	enum:DIGITS
+DIG3	my_header.h	/^    DIG3 = SEG0 | SEG1 | SEG2 | SEG3 | SEG6,$/;"	e	enum:DIGITS
+DIG4	my_header.h	/^    DIG4 = SEG1 | SEG2 | SEG5 | SEG6,$/;"	e	enum:DIGITS
+DIG5	my_header.h	/^    DIG5 = SEG0 | SEG5 | SEG6 | SEG2 | SEG3,$/;"	e	enum:DIGITS
+DIG6	my_header.h	/^    DIG6 = DIG5 | SEG4,$/;"	e	enum:DIGITS
+DIG7	my_header.h	/^    DIG7 = DIG1 | SEG0,$/;"	e	enum:DIGITS
+DIG8	my_header.h	/^    DIG8 = DIG0 | SEG6,$/;"	e	enum:DIGITS
+DIG9	my_header.h	/^    DIG9 = DIG5 | SEG1$/;"	e	enum:DIGITS
+DIGITS	my_header.h	/^enum DIGITS {$/;"	g
+Default_Handler	startup_stm32f051x8.s	/^Default_Handler:$/;"	l
+EXTI0_1_IRQHandler	main.c	/^void EXTI0_1_IRQHandler(void) {$/;"	f
+FillZerobss	startup_stm32f051x8.s	/^FillZerobss:$/;"	l
+HSE_VALUE	system_stm32f0xx.c	42;"	d	file:
+HSI48_VALUE	system_stm32f0xx.c	52;"	d	file:
+HSI_VALUE	system_stm32f0xx.c	47;"	d	file:
+HardFault_Handler	main.c	/^void HardFault_Handler(void) {$/;"	f
+INC_TIME_MODES	my_header.h	/^enum INC_TIME_MODES {$/;"	g
+Infinite_Loop	startup_stm32f051x8.s	/^Infinite_Loop:$/;"	l
+LoopCopyDataInit	startup_stm32f051x8.s	/^LoopCopyDataInit:$/;"	l
+LoopFillZerobss	startup_stm32f051x8.s	/^LoopFillZerobss:$/;"	l
+LoopForever	startup_stm32f051x8.s	/^LoopForever:$/;"	l
+NMI_Handler	main.c	/^void NMI_Handler(void) {}$/;"	f
+PendSV_Handler	main.c	/^void PendSV_Handler(void) {}$/;"	f
+Reset_Handler	startup_stm32f051x8.s	/^Reset_Handler:$/;"	l
+SEG0	my_header.h	/^    SEG0 = 1 << 0,$/;"	e	enum:SEGMENTS
+SEG1	my_header.h	/^    SEG1 = 1 << 1,$/;"	e	enum:SEGMENTS
+SEG2	my_header.h	/^    SEG2 = 1 << 2,$/;"	e	enum:SEGMENTS
+SEG3	my_header.h	/^    SEG3 = 1 << 3,$/;"	e	enum:SEGMENTS
+SEG4	my_header.h	/^    SEG4 = 1 << 4,$/;"	e	enum:SEGMENTS
+SEG5	my_header.h	/^    SEG5 = 1 << 5,$/;"	e	enum:SEGMENTS
+SEG6	my_header.h	/^    SEG6 = 1 << 6$/;"	e	enum:SEGMENTS
+SEGMENTS	my_header.h	/^enum SEGMENTS {$/;"	g
+SVC_Handler	main.c	/^void SVC_Handler(void) {}$/;"	f
+SysTick_Handler	main.c	/^void SysTick_Handler(void) {$/;"	f
+SystemClock_Config	main.c	/^void SystemClock_Config() {$/;"	f
+SystemCoreClock	system_stm32f0xx.c	/^uint32_t SystemCoreClock = 8000000;$/;"	v
+SystemCoreClockUpdate	system_stm32f0xx.c	/^void SystemCoreClockUpdate (void)$/;"	f
+SystemInit	system_stm32f0xx.c	/^void SystemInit(void)$/;"	f
+TIMER_MODE	my_header.h	/^    TIMER_MODE,$/;"	e	enum:INC_TIME_MODES
+button	main.c	/^} button;$/;"	v	typeref:struct:__anon1
+buzzer	main.c	/^uint32_t buzzer;$/;"	v
+clock_num	main.c	/^uint64_t clock_num;$/;"	v
+current_digits	main.c	/^uint32_t current_digits[4];$/;"	v
+delay	main.c	/^static void volatile delay(volatile uint32_t time) {$/;"	f	file:
+digits	main.c	/^uint32_t digits[] = {DIG0, DIG1, DIG2, DIG3, DIG4, DIG5, DIG6, DIG7, DIG8, DIG9};$/;"	v
+digits_on	my_header.h	/^int digits_on[] = {$/;"	v
+g_pfnVectors	startup_stm32f051x8.s	/^g_pfnVectors:$/;"	l
+hours	main.c	/^uint32_t hours;$/;"	v
+inc_time	main.c	/^void inc_time(uint32_t mode) {$/;"	f
+main	main.c	/^int main(void) {$/;"	f
+min	main.c	/^uint32_t min;$/;"	v
+sec	main.c	/^uint32_t sec;$/;"	v
+set_time_by_button	main.c	/^void set_time_by_button() {$/;"	f
+state	main.c	/^    uint32_t state;$/;"	m	struct:__anon1	file:
+tick	main.c	/^uint32_t tick;$/;"	v
+version	main.c	/^    uint64_t version;$/;"	m	struct:__anon1	file:
